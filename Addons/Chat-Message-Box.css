@@ -1,0 +1,15 @@
+/* Chat message box */
+.contents_c19a55 .messageContent_c19a55, .container_b7e1cb {
+  background-color: var(--background-color-chat-message-box);
+  display: block;
+  max-width: 650px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
