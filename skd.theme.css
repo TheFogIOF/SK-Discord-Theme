@@ -1,0 +1,35 @@
+/**
+  * @name SKD
+  * @author TheFogIOF
+  * @version 1
+  * @description Highly customized purple theme for Discord
+  * @authorId 943118493312778320
+  * @authorLink https://thefogiof.github.io/MyLinks/
+  * @source https://github.com/TheFogIOF/SK-Discord-Theme
+  * @website https://thefogiof.github.io/MyLinks/
+  * @donate https://www.donationalerts.com/r/twitch_fogiof
+  * @invite CNbpNxvGHd
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;500;700&display=swap');
+/* Theme */
+@import url('https://raw.githubusercontent.com/TheFogIOF/SK-Discord-Theme/main/Theme.css');
+
+/* Chat Message Box */
+@import url('https://raw.githubusercontent.com/TheFogIOF/SK-Discord-Theme/main/Addons/Chat-Message-Box.css');
+
+/* Animated Member List */
+@import url('https://raw.githubusercontent.com/TheFogIOF/SK-Discord-Theme/main/Addons/Animated-Member-List.css');
+/* Animated Server List */
+@import url('https://raw.githubusercontent.com/TheFogIOF/SK-Discord-Theme/main/Addons/Animated-Server-List.css');
+
+:root {
+  --background-image: url('https://i.pinimg.com/originals/52/6a/b2/526ab2346bc63129193fb9b86b60d24b.jpg');
+  --home-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --background-color-1: #00000070;
+  --background-color-2: #00000060;
+  --background-color-sec: #bb86fc;
+  --background-color-links: #cdaef3;
+  --background-color-chat-message-box: #00000044;
+  --font: Ubuntu;
+}
