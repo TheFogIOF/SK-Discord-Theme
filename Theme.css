@@ -1,0 +1,177 @@
+/* Change font */
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: var(--font, "gg sans"), "gg sans";
+}
+
+/* Background image */
+.bg__960e4 {
+    background-image: var(--background-image) !important;
+    opacity: var(--bg-opacity) !important;
+    background-attachment: var(--background-attachment, fixed) !important;
+    background-size: var(--background-size, cover) !important;
+    background-position: var(--background-position, center) !important;
+}
+
+/* Change home button image */
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
+  background: var(--home-image) center/cover no-repeat !important;
+}
+
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
+  display: none;
+}
+
+/* Transparent scrollbar */
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border-color: transparent !important;
+    background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-clip: content-box !important;
+    background: var(--chillax-scroller-color) !important;
+}
+
+/* Title */
+.title_c38106 {
+    background-color: var(--background-color-1);
+}
+
+/* Streamer mode */
+.notice__6e2b9 {
+    margin: 8px;
+    border-radius: 8px;
+}
+
+/* Channel list */
+.container__2637a {
+    background-color: var(--background-color-1);
+}
+.sidebarListRounded_c48ade {
+    border-radius: 0px;
+}
+
+/* Friend list */
+.privateChannels__35e86 {
+    background-color: var(--background-color-1);
+}
+.scroller__99e7c {
+    background-color: transparent;
+}
+
+/* Friend page */
+.container__133bf {
+    background-color: var(--background-color-2);
+}
+.tabBody__133bf, .nowPlayingColumn__133bf, .container__7d20c {
+    background-color: transparent;
+}
+
+/* Server list */
+.wrapper_ef3116 {
+    background-color: var(--background-color-1);
+    margin-bottom: 0px !important;
+}
+.scroller_ef3116 {
+    margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
+}
+
+/* Main chat area */
+.chat_f75fb0 {
+    background-color: var(--background-color-2) !important;
+}
+
+/* Chat message area */
+.chatContent_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Chat input */
+.channelTextArea_f75fb0, .channelTextArea__74017 {
+    background-color: var(--background-color-2);
+}
+.scrollableContainer__74017, .themedBackground__74017 {
+    background-color: transparent;
+}
+.channelTextArea_f75fb0 {
+    border-color: transparent !important;
+}
+.chatGradient__36d07 {
+    background: transparent !important;
+}
+
+/* Member list */
+.container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
+    background-color: transparent !important;
+}
+
+/* Placeholder for unloaded messages */
+.wrapper_d852db,
+.wrapper_fc8177 {
+    background-color: transparent !important;
+}
+
+.message__5126c:hover {
+    background-color: transparent !important;
+}
+
+/* Hide borders */
+.sidebarList_c48ade, .chat_f75fb0, .chatContent_f75fb0, .container__9293f {
+    border-color: var(--background-color-1) !important;
+}
+
+/* transparent role selection / browse channels / members page background */
+.container__9293f {
+    background-color: transparent !important;
+}
+
+.panel__5dec7, .panels_c48ade {
+    background-color: var(--background-color-1);
+}
+
+.wrapper_cb9592, .callContainer_cb9592, .root_bfe55a {
+    background-color: var(--background-color-2);
+}
+
+/* discover server section transparent background */
+.visual-refresh .container__551b0,
+.visual-refresh .scroller__23746 {
+    background-color: transparent !important;
+}
+
+.theme-dark .gradient_e9ef78 {
+    background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
+}
+
+/* Transparent background for the shop, nitro page */
+.visual-refresh .shop__6db1d,
+.shopScroll__6db1d,
+.shop__08415,
+.pageWrapper__6db1d,
+.applicationStore_f07d62,
+.visual-refresh .homeWrapper__0920e,
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
+    background: var(--background-color-2) !important;
+}
+
+.membersGroup_c8ffbb {
+  color: var(--background-color-sec);
+}
+
+.wrapper__2ea32.modeUnreadImportant__2ea32
+  .wrapper__2ea32
+  .mainContent-20q_Hp
+  .channelName-3KPsGw {
+  color: var(--background-color-sec);
+}
+
+.markup__75297 a {
+    color: var(--background-color-links);
+}
+
+/* Hide */
+.sidebar_c48ade:after, .children__9293f:after {
+    display: none;
+}
